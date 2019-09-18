@@ -1,0 +1,71 @@
+# Window dimensions
+window width=800
+window height=800
+
+# Canvas dimensions and location as proportions from main window.
+canvas width=0.85
+canvas height=0.9
+canvas x=0.01
+canvas y=0.01
+
+# Canvas border
+canvas border r=0
+canvas border g=0
+canvas border b=0
+canvas border thickness=2
+
+# Canvas background
+canvas background r=255
+canvas background g=255
+canvas background b=255
+
+# Control points
+control point radius=8
+control point r=255
+control point g=0
+control point b=0
+
+# Curve
+curve number of points=2000
+long curve threshold=15
+curve r=0
+curve g=0
+curve b=0
+
+# Sample points
+sample point radius=5
+sample point r=0
+sample point g=128
+sample point b=0
+
+# Tangent line
+tangent r=0
+tangent g=0
+tangent b=255
+# This length is effectively doubled
+# because the tangent is drawn in two directions.
+# Once from the point, in the direction obtained
+# and once in the reverse direction.
+# The length is a proportion of the width of the screen.
+tangent length=0.08
+
+# Curvature line
+curvature r=255
+curvature g=140
+curvature b=0
+# The length is a proportion of the width of the screen.
+curvature length=0.05
+
+# Sample Input dimensions
+sample input width=0.14
+sample input height=0.05
+sample input x=0.86
+sample input y=0.15
+
+# Messages
+message width=0.14
+message height=0.15
+message x=0.86
+message y=0.0
+message size=15
+message font=Dialog
